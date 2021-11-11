@@ -5,6 +5,7 @@ import ReducerDemo from "./components/ReducerDemo";
 import ContextDemo from "./components/ContextDemo";
 import RefDemo from "./components/RefDemo";
 import CallbackMemoDemo from "./components/CallbackMemoDemo";
+import HooksDemo from "./components/HooksDemo";
 import "./App.css";
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
       <ReducerDemo />
       <ContextDemo /> */}
       {/* <RefDemo /> */}
-      <CallbackMemoDemo />
+      {/* <CallbackMemoDemo /> */}
+      <HooksDemo />
     </div>
   );
 }
